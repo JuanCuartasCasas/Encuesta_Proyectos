@@ -7,7 +7,9 @@ def encuesta():
             
             self.preguntas = []
             self.preguntas.append(respuestas)
-            self.respuestasm = {}
+        
+    def datos_estudiantes(self):
+        
 
 
 
@@ -24,7 +26,9 @@ def encuesta():
 
 
 def main():
-    preguntas = "¿se considera bueno trabajando en equipo,que rol preferiria asumir?: "
+    preguntas = ["¿se considera bueno trabajando en equipo,que rol preferiria asumir?: ","¿le gusta que trabajar en equipo?:","¿tiene experiencia en el interprete de python?: ",
+                 "¿Cual es su idea de proyecto?"
+                    ]
     respuestas = input(preguntas)
     encuesta()
 
