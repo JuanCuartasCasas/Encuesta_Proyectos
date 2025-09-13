@@ -5,19 +5,9 @@ def encuesta():
     class Encuesta:
         def __init__(self):
             
-            self.preguntas = [
-                 "¿Considera que trabaja bien en equipo?",
-                 "¿Le gusta trabajar en equipo?"
-                 "¿Que idea de proyecto planea realizar?"
-
-
-
-
-
-
-
-        ]
-            self.respuestas = {}
+            self.preguntas = []
+            self.preguntas.append(respuestas)
+            self.respuestasm = {}
 
 
 
@@ -34,6 +24,8 @@ def encuesta():
 
 
 def main():
+    preguntas = "¿se considera bueno trabajando en equipo,que rol preferiria asumir?: "
+    respuestas = input(preguntas)
     encuesta()
 
 if __name__ == "__main__":
